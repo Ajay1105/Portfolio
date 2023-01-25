@@ -1,3 +1,2 @@
-link 
-# Getting Started with Create React App
+# Link
 https://ajayky-portfolio.netlify.app/
