@@ -160,7 +160,7 @@
 
 .app__header-img{
     flex: 1;
-    height: 40%;
+    height: 80%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -184,5 +184,6 @@
 
     @media screen and (max-width:1200px) {
         margin: 2rem 0rem;
+        height: 40%;
     }
 }
