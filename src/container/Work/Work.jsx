@@ -27,13 +27,12 @@ const Work = () => {
     setTimeout(() => {
       setAnimate([{ y: 0, opacity: 1 }]);
 
-      if (item === 'All') {
+      if (item == "ALL") {
         console.log("clicked")
         setFilterWork(Works);
       } else {
         setFilterWork(Works.filter((work) => work.tags.includes(item)));
-       
-      }
+             }
     }, 500);
   };
 
